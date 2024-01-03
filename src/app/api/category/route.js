@@ -1,6 +1,6 @@
 import {Category} from "@/models/Category";
 import mongoose from "mongoose";
-import { isAdmin } from "../auth/[...nextauth]/route";
+import { isAdmin } from "@/libs/isAdmin";
 
 export async function POST(req){
     const {name} = await req.json();

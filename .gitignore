@@ -9,3 +9,6 @@ temp/
 
 #ignore all files in node_modules
 node_modules/
+
+#ignore build files
+.next/
